@@ -1,0 +1,23 @@
+// HTML:
+
+-- O atributo draggable torna uma elemento drag and drop;
+
+-- O atributo defer na tag script faz com que o javascript seja excutado somente depois do html ser renderizado na tela;
+
+// JS:
+
+-- Eventos para iniciar O Drag and drop:
+
+- dragstart == evento que é disparado quando começar a arrastar um elemento na tela;
+- drag == evento que é disparado enquanto o elemento esta sendo arrastado;
+- dragend == evento que é disparado quando termina o movimento de arrastar do elemento.
+
+-- Com os eventos devidamente carregados nos cards ja é iniciado o dran and drop, dessa forma agora basta fazer com que torne possivel a funcionalidade de trocar o card de cada lista para outra;
+
+- dragenter == evento que fala que o elemento entrou na zona de drop;
+- dragover == evento que fala que o elemento esta emcima da zona que ira ser solto;
+- dragleave == evento que fala que o elemento saiu da zona que ele poderia ser solto;
+- drop == evento que fala que o elemento foi solto em uma dropzone.
+
+---- Com a utilização desses eventos já é possivel trazer a funcionalidade de drag and drop para a aplicação;
+---- Com isso a unica coisa que irá faltar é que em durante a execução do evento o card que esta sendo movido seja capturado pelo javascript e inserido na nova localidade desejada.

@@ -1,0 +1,69 @@
+html {
+    font-family: 'Fira Sans', sans-serif;;
+}
+
+body{
+    background-color: #01000e;
+    color: #ffffff;
+}
+
+.boards{
+    display: flex;
+    margin: 25px 25px 25px 25px;
+}
+
+.board{
+    background-color: #102136;
+    border: 1px solid #140e0e;
+    border-radius: 8px;
+    min-width: 300px;
+    min-height: 100px;
+    margin: 0px 10px;
+    padding: 0px 15px;
+}
+
+.board h3{
+    font-size: 23px;
+}
+
+.dropzone {
+    padding: 15px;
+    min-width: 280px;
+    min-height: 100px;
+}
+
+.card{
+    background-color: #2b3452;
+    padding: 12px;
+    box-shadow: 1px 2px 2px -1px #4b6ddf;
+    width: 250px;
+    margin: 25px 0px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.status{
+    width: 40px;
+    height: 9px;
+    background-color: gray;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.card, .dropzone, .board{
+    transition: 400ms;
+}
+
+.highlight {
+    background-color: #FD951F08;
+}
+
+.is-moving {
+    cursor: move;
+    opacity: 0.3;
+}
+
+.over {
+    background-color: #4cd13711;
+}
